@@ -8,9 +8,9 @@ LINE_ACCESS_TOKEN = load_env_ex06()
 print("LINE_ACCESS_TOKEN:", LINE_ACCESS_TOKEN)
 
 url = "https://notify-api.line.me/api/notify"
-file = {'imageFile':open('CodeCit\Lab5-Network\ex06_line_img\img_test.jpeg','rb')}
+file = {'imageFile':open('CodeCit/Lab5-Network/ex06_line_img/1 (1).jpg','rb')}
 data = ({
-        'message':'Test Image'
+        'message':'ตรวจพบบุคคลที่คาดว่าต้องการความช่วยเหลือ'
     })
 LINE_HEADERS = {"Authorization":"Bearer "+LINE_ACCESS_TOKEN}
 session = requests.Session()
