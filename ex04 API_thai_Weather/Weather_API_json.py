@@ -33,3 +33,7 @@ if response.status_code == 200:
 else:
     print(f"respone Error{response}")
 
+# times 
+# rhum   # Relative Humidity
+# temps # Temperature
+# conditions   # Weather Conditions
